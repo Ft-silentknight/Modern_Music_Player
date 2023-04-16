@@ -8,7 +8,7 @@ const progressContainer = document.getElementById("progress-container");
 const title = document.getElementById("title");
 const cover = document.getElementById("cover");
 
-const songs = ["Crimson_Fly", "Indian_Walk", "Silent_Night"];
+const songs = ["Crimson Fly", "Indian Walk", "Silent Night"];
 let songIndex = 1;
 
 function getSongTitle(song) {
@@ -17,8 +17,8 @@ function getSongTitle(song) {
 
 function loadSong(song) {
   title.innerText = getSongTitle(song);
-  audio.src = `https://github.com/Ft-silentknight/Modern_Music_Player/tree/master/music/${song}.mp3?raw=true`;
-  cover.src = `https://github.com/Ft-silentknight/Modern_Music_Player/tree/master/images/${song}.jpg?raw=true`;
+  audio.src = `https://github.com/Ft-silentknight/Modern_Music_Player/raw/master/music/${song}.mp3`;
+  cover.src = `https://raw.githubusercontent.com/Ft-silentknight/Modern_Music_Player/master/images/${song}.jpg`;
 }
 
 function playSong() {
