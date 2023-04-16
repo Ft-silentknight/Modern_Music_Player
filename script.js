@@ -8,7 +8,7 @@ const progressContainer = document.getElementById("progress-container");
 const title = document.getElementById("title");
 const cover = document.getElementById("cover");
 
-const songs = ["Crimson Fly - Huma-Huma", "Indian Walk", "Silent Night"];
+const songs = ["Crimson_Fly", "Indian_Walk", "Silent_Night"];
 let songIndex = 1;
 
 function getSongTitle(song) {
